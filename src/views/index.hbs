@@ -1,0 +1,14 @@
+{{#each entries}}
+<div class="card mb-4">
+    <div class="card-header">
+        <h3 class="ml-auto">{{ title }}</h3>
+        <h5>{{ userName }}</h5>
+        <h6>{{ date }}</h6>
+    </div>
+    <div class="card-body">
+        <p>
+            {{ content }}
+        </p>
+    </div>
+</div>
+{{/each}}
